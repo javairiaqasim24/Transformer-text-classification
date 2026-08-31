@@ -322,7 +322,7 @@ transformer-text-classification/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_traditional_ml.ipynb
-│   ├── 03_transformers.ipynb
+│   ├── 03_transformers_training.ipynb
 │   └── 04_model_comparison.ipynb
 │
 ├── results/
@@ -334,8 +334,8 @@ transformer-text-classification/
 ├── src/
 │   ├── preprocessing.py
 │   ├── traditional_models.py
-│   ├── transformers.py
-│   └── evaluation.py
+│   ├── train_transformer.py
+│   └── evaluate.py
 │
 ├── README.md
 ├── requirements.txt
