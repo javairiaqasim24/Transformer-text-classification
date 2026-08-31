@@ -352,7 +352,7 @@ Dataset loading, data-quality checks, duplicate/leakage analysis, class distribu
 ### `02_traditional_ml.ipynb`
 TF-IDF, Logistic Regression, Linear SVM, validation/test evaluation, and classical-model visualizations.
 
-### `03_transformers.ipynb`
+### `03_transformers_training.ipynb`
 Transformer preprocessing, tokenization, BERT fine-tuning, RoBERTa fine-tuning, and recorded validation/test results. This notebook was executed in GPU-enabled Google Colab.
 
 ### `04_model_comparison.ipynb`
@@ -378,7 +378,7 @@ Because hosted Colab GPU sessions are temporary and GPU resources were limited, 
 
 This avoids committing large model files while keeping the experimental code and recorded results available.
 
-For a fresh reproduction, `03_transformers.ipynb` can be executed in a GPU-enabled environment.
+For a fresh reproduction, `03_transformers_training.ipynb` can be executed in a GPU-enabled environment.
 
 ---
 
